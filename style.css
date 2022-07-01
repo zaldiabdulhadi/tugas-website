@@ -1,0 +1,96 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: lightskyblue;
+}
+
+.logo {
+    width: 50px;
+    display: block;
+}
+
+.kontenhome {
+    text-align: center;
+}
+
+.kontenhome .name h2 {
+    font-weight: bold;
+}
+
+.kontenhome h2 {
+    padding: 2px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.kontenhome .mainimg {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.kontenhome .overview {
+    margin-top: 30px;
+}
+
+.kontenhome .overview h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.kontenhome .paragraf {
+    font-size: 19px;
+}
+
+.kontenhome .skill {
+    margin-top: 30px;
+}
+
+.kontenhome .skill h2 {
+    font-size: 24px;
+}
+
+.kontenhome .skill img {
+    margin-top: 30px;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.kontenhome .skill .flutter {
+    width: 80px;
+}
+
+.footer {
+    font-weight: lighter;
+}

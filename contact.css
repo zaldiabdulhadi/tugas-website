@@ -1,0 +1,103 @@
+* {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: #eff4fd;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #eff4fd;
+}
+
+nav {
+  height: auto;
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: lightskyblue;
+}
+
+.contact {
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  display: block;
+}
+
+.kontencontact {
+  margin: 60px;
+}
+
+.kontencontact .header img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.kontencontact .location {
+  margin-top: 30px;
+}
+
+.kontencontact .location h3 {
+  margin-bottom: 10px;
+}
+
+.kolomkiri {
+  margin: 60px;
+}
+
+.kolomkiri h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 7px;
+  border-radius: 4px;
+  height: 30px;
+  width: 300px;
+  border-width: 1px;
+  margin-bottom: 30px;
+}
+
+.textarea {
+  height: 90px;
+}
+
+button {
+  z-index: 9;
+  font-size: 20px;
+  margin-top: 0px;
+  background: turquoise;
+  height: 30px;
+  width: 150px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 65px;
+}
+
+h5 {
+  text-align: center;
+}
